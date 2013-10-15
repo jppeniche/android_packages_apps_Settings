@@ -917,9 +917,34 @@
         <item>Always allow</item>
     </string-array>
 	
-	<!-- Values for active display -->
+    <!-- Values for active display -->
 	
-	<string-array name="ad_redisplay_entries" translatable="false">
+    <string-array name="lockscreen_icon_picker_icons" translatable="false">
+        <item>@*android:drawable/ic_lockscreen_alarm_normal</item>
+        <item>@*android:drawable/ic_lockscreen_browser_normal</item>
+        <item>@*android:drawable/ic_lockscreen_calendar_normal</item>
+        <item>@*android:drawable/ic_lockscreen_camera_normal</item>
+        <item>@*android:drawable/ic_lockscreen_chrome_normal</item>
+        <item>@*android:drawable/ic_lockscreen_email_normal</item>
+        <item>@*android:drawable/ic_lockscreen_email2_normal</item>
+        <item>@*android:drawable/ic_lockscreen_facebook_normal</item>
+        <item>@*android:drawable/ic_lockscreen_gallery_normal</item>
+        <item>@*android:drawable/ic_lockscreen_google_small_normal</item>
+        <item>@*android:drawable/ic_lockscreen_gplus_normal</item>
+        <item>@*android:drawable/ic_lockscreen_gtalk_normal</item>
+        <item>@*android:drawable/ic_lockscreen_maps_normal</item>
+        <item>@*android:drawable/ic_lockscreen_sms_normal</item>
+        <item>@*android:drawable/ic_lockscreen_movie_normal</item>
+        <item>@*android:drawable/ic_lockscreen_music_normal</item>
+        <item>@*android:drawable/ic_lockscreen_nav_normal</item>
+        <item>@*android:drawable/ic_lockscreen_phone_normal</item>
+        <item>@*android:drawable/ic_lockscreen_podcast_normal</item>
+        <item>@*android:drawable/ic_lockscreen_rss_normal</item>
+        <item>@*android:drawable/ic_lockscreen_google_normal</item>
+        <item>@*android:drawable/ic_lockscreen_twitter_normal</item>
+    </string-array>
+	
+    <string-array name="ad_redisplay_entries" translatable="false">
         <item>@string/ad_redisplay_never</item>
         <item>@string/ad_redisplay_1m</item>
         <item>@string/ad_redisplay_5m</item>
