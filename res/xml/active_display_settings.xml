@@ -72,6 +72,13 @@
         android:key="ad_customizations"
         android:title="@string/ad_customizations_title" />
 
+        <com.android.settings.chameleonos.AppMultiSelectListPreference
+            android:key="ad_excluded_apps"
+            android:persistent="false"
+            android:title="@string/ad_excluded_apps_title"
+            android:summary="@string/ad_excluded_apps_summary"
+            android:dependency="ad_enable" />
+
         <CheckBoxPreference
             android:key="ad_show_date"
             android:persistent="false"
@@ -86,7 +93,7 @@
             android:summary="@string/ad_show_ampm_summary"
             android:dependency="ad_enable"/>
 
-        <!--<com.android.settings.chameleonos.SeekBarPreference
+        <com.android.settings.chameleonos.SeekBarPreference
             android:key="ad_brightness"
             android:persistent="false"
             android:title="@string/ad_brightness_title"
@@ -96,6 +103,6 @@
             settings:unitsLeft=""
             settings:unitsRight="%"
             android:defaultValue="100"
-            android:dependency="ad_enable" />-->
+            android:dependency="ad_enable" />
 
 </PreferenceScreen>
